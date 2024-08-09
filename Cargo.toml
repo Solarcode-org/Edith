@@ -1,0 +1,10 @@
+[package]
+name = "edith"
+version = "0.2.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.14", features = ["derive"] }
+color-eyre = "0.6.3"
+crossterm = "0.28.1"
+termsize = "0.1.9"
